@@ -14,23 +14,40 @@
 <header class="header">
     <div class="container">
        <nav class="navigation">
-        <a class="logo link" href="./index.html"><span class="web">Web</span> Studio</a>
-        <ul class="site-nav-list list">
-           <li class="site-nav-list-item">
-               <a class="site-nav-list-item-link link" href="./index.html">Студия</a>
-           </li>
-           <li class="site-nav-list-item">
-               <a class="site-nav-list-item-link link" href="./portfolio.html">Портфолио</a>
-           </li>
-           <li class="site-nav-list-item">
-               <a class="site-nav-list-item-link link" href="">Контакты</a>
-           </li>
-        </ul>
+           <a class="logo link" href="./index.html"><span class="web">Web</span> Studio</a>
+           <ul class="site-nav-list list">
+              <li class="site-nav-list-item ">
+                  <a class="site-nav-list-item-link link " href="./index.html">Студия</a>
+              </li>
+              <li class="site-nav-list-item current">
+                  <a class="site-nav-list-item-link current link" href="./portfolio.html">Портфолио</a>
+              </li>
+              <li class="site-nav-list-item">
+                  <a class="site-nav-list-item-link link" href="">Контакты</a>
+              </li>
+           </ul>
         </nav>
        
-       <div class="header-address">
-           <a class="header-address-mail link" href="info@devstudio.com">info@devstudio.com</a>
-           <a class="header-address-tel link" href="+380961111111">+38 096 111 11 11</a>
+       <div class="header-address"> 
+           <ul class="header-address-items">
+               <li class="header-address-list">
+                   <a class="header-address-mail link" href="info@devstudio.com">
+                       <svg class="header-address-svg">
+                           <use href="./image/symbol-defs.svg#icon-mail"></use>
+                       </svg> 
+                       info@devstudio.com
+                   </a>
+                  </li>
+               <li class="header-address-list">
+                   <a class="header-address-tel link" href="+380961111111">
+                       <svg class="header-address-svg">
+                           <use href="./image/symbol-defs.svg#icon-tel"></use>
+                       </svg>
+                       +38 096 111 11 11
+                   </a>
+               </li>
+           </ul>
+              
        </div>
      </div>
     </header>
@@ -156,44 +173,36 @@
     <footer>
         <div class="container">
             <div class="footer">
-            <div class="footer1" >  
-                <a class="logo link" href="./index.html">
-                    <span class="web">Web</span> <span class="Studio-f"> Studio </span>
-                </a>
-              
-                <address class="contacts-footer">
-                    <span class="contact-address-f"> г.Киев, пр-т Леси Украинки,26<br /></span> 
-                    <span class="contact-mail-f">info@devstudio.com <br /></span> 
-                    <span class="contact-tel-f">+38 096 111 11 11</span> 
-                </address>
-            </div>
-             
-    
-            <div class="wrapper-f">
-                 <b class="contacts-join-f">Присоединяйтесь</b>
-                 <ul class="items">
-                    <li> 
-                        <a href="" aria-label="Instagram"></a> 
-                    </li>
-                    <li> 
-                        <a href="" aria-label="Twitter icon"></a>
-                    </li>
-                    <li> 
-                        <a href="" aria-label="Facebook icon"></a>
-                    </li>
-                    <li> 
-                        <a href="" aria-label="Linkedyn icon"></a>
-                    </li>
-                </ul>
-            </div>  
+                <div class="footer1" >  
+                    <a class="logo link" href="./index.html">
+                        <span class="web">Web</span> <span class="Studio-f"> Studio </span>
+                    </a>
+                  
+                    <address class="contacts-footer">
+                        <span class="contact-address-f"> г.Киев, пр-т Леси Украинки,26<br /></span> 
+                        <span class="contact-mail-f">info@devstudio.com <br /></span> 
+                        <span class="contact-tel-f">+38 096 111 11 11</span> 
+                    </address>
+        </div>
          
-            <div hidden>
-                 <b class="contact-subscribe-f">Подпишитесь на рассылку</b> 
-                 <button class="btn footer">Подписаться</button>
-            </div>
-            </div>
-            </div>
-        </footer>
+
+        <div class="wrapper-f">
+             <b class="contacts-join-f">Присоединяйтесь</b>
+             <ul class="item-f">
+                <li class="social-list-items-f list Instagram"></li>
+                <li class="social-list-items-f list Twitter"></li>
+                <li class="social-list-items-f list Facebook"></li>
+                <li class="social-list-items-f list Linkedyn"></li>
+            </ul>
+        </div>  
+     
+        <div class="wrapper-f-subscribe">
+             <b class="contact-subscribe-f">Подпишитесь на рассылку</b> 
+             <button class="btn footer">Подписаться</button>
+        </div>
+        </div>
+        </div>
+    </footer>
       
 </body>
 </html>
